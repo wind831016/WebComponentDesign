@@ -1,11 +1,14 @@
 $(function () {
   $("#loginBtn").click(function () {
-    alert("hello world");
+    alert("hello world loginBtn");
   });
 
-  /* 動畫   
+  $("#createBtn").click(function () {
+    alert("hello world createBtn");
+  });
+
+  /* 動畫 */
   $(".message a").click(function () {
     $("form").animate({ height: "toggle", opacity: "toggle" }, "slow");
   });
-  */
 });

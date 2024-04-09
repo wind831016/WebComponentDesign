@@ -11,13 +11,13 @@ body {
     background: #0e2941;
 }
 
-.login-page {
+.container {
     width: 400px;
     padding: 8% 0 0;
     margin: auto;
 }
 
-.login-page .form {
+.container .form {
     position: relative;
     z-index: 1;
     background: #FFFFFF;
@@ -32,7 +32,7 @@ body {
 /* Title */
 
 /* Input */
-.login-page .form input {
+.container .form input {
     font-family: "Poppins";
     outline: 0;
     background: #f2f2f2;
@@ -46,7 +46,7 @@ body {
 }
 
 /* Button */
-.login-page .form button {
+.container .form button {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     outline: 0;
@@ -62,20 +62,25 @@ body {
     cursor: pointer;
 }
 
-.login-page .form button:hover,
-.login-page .form button:active,
-.login-page .form button:focus {
+.container .form button:hover,
+.container .form button:active,
+.container .form button:focus {
     background: #0e2941;
 }
 
 /* Register */
-.login-page .form .message {
+.container .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
     font-size: 12px;
 }
 
-.login-page .form .message a {
+.container .form .message a {
     color: #234666;
     text-decoration: none;
+}
+
+/* Register */
+.container .form .registerform {
+    display: none;
 }
