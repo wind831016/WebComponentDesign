@@ -16,20 +16,26 @@
 <body>
     <div class="container">
         <div class="form">
+
             <!-- Login -->
             <form class="loginform" method="post">
+
                 <!-- Title -->
-                <h2>
+                <h2 class="title">
                     <i class="input-icon uil uil-lock-alt"></i>
                     Login
                 </h2>
 
-                <!-- Input -->
-                <input type="text" placeholder="Username" required />
-                <input type="password" placeholder="Password" required />
+                <!-- Content -->
+                <div class="">
 
-                <!-- Button -->
-                <button type="submit" name="login" id="loginBtn">Login</button>
+                    <!-- Input -->
+                    <input type="text" placeholder="Username" required />
+                    <input type="password" placeholder="Password" required />
+
+                    <!-- Button -->
+                    <button type="submit" name="login" id="loginBtn">Login</button>
+                </div>
 
                 <!-- Register -->
                 <p class="message">Not registered?
@@ -39,20 +45,25 @@
 
             <!-- Register -->
             <form class="registerform" method="post">
+
                 <!-- Title -->
-                <h2>
+                <h2 class="title">
                     <i class="input-icon uil uil-lock-alt"></i>
                     Register
                 </h2>
 
-                <!-- Input -->
-                <input type="text" placeholder="Full Name" required />
-                <input type="text" placeholder="Username" required />
-                <input type="email" placeholder="Email" required />
-                <input type="password" placeholder="Password" required />
+                <!-- Content -->
+                <div class="">
 
-                <!-- Button -->
-                <button type="submit" name="create" id="createBtn">Create</button>
+                    <!-- Input -->
+                    <input type="text" placeholder="Full Name" required />
+                    <input type="text" placeholder="Username" required />
+                    <input type="email" placeholder="Email" required />
+                    <input type="password" placeholder="Password" required />
+
+                    <!-- Button -->
+                    <button type="submit" name="create" id="createBtn">Create</button>
+                </div>
 
                 <!-- Login -->
                 <p class="message">Already registered?
@@ -60,7 +71,6 @@
                 </p>
             </form>
         </div>
-    </div>
     </div>
 </body>
 
